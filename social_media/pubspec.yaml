@@ -1,0 +1,33 @@
+name: social_media
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  image_picker: ^1.1.1
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.31.0
+  cloud_firestore: ^4.17.3
+  firebase_auth: ^4.19.6
+  firebase_storage: ^11.7.6
+  get_it: ^7.7.0
+  smooth_page_indicator: ^1.1.0
+    
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/images/onboarding1.png
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+       - asset: assets/fonts/Poppins-Bold.ttf
